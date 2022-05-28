@@ -1,0 +1,257 @@
+
+/* header */
+.toggler {
+    z-index: 100;
+    color: #B3BAC2;
+    font-weight: bold;
+    font-size: 220%;
+    background: none;
+    border: none;
+}
+
+.toggler:hover {
+    color: white;
+}
+
+.brand {
+    z-index: 100;
+    color: #B3BAC2;
+    font-weight: bold;
+}
+
+
+#menu {
+    display: block;
+}
+
+#cancel {
+    display: none;
+}
+
+
+#hide {
+    display: none;
+    transition: 1s;
+}
+
+
+#drop-down {
+    z-index: 1000;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background:rgba(45, 45, 45, 0.953);
+}
+
+.page {
+    color: #B3BAC2;
+    font-weight: bold;
+}
+
+.page:hover {
+    color: white;
+}
+
+
+
+
+
+/* HOME page */
+#home {
+    height: 100vh;
+    background-image: url('/imgs/retro-pink.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.me {
+    z-index: 100;
+    color: #B3BAC2;
+    font-weight: bold;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(41, 0, 38, 0.768);
+}
+
+
+.info {
+    background-color: #0D1117;
+    color: #B3BAC2;
+}
+
+#content {
+    position: relative;
+    height: auto;
+    padding-bottom: 20%;
+}
+
+.row {
+    text-align: center;
+}
+
+.icons {
+    color: #B3BAC2;
+    font-size: 350%;
+    margin-top: 25%;
+}
+
+
+#other {
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(#663057, #1F2558);
+}
+
+
+.box {
+    color: #B3BAC2;
+    width: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+
+.bord {
+    color: #B3BAC2;
+    border: 5px solid #B3BAC2;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bord:hover {
+    color: white;
+    border-color: white;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+/* about page */
+#about {
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(#663057, #1F2558);
+    color: #B3BAC2;
+}
+
+#about-content {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.me-about {
+    width: 50%;
+}
+
+.quality {
+    background-color: #663057;
+    width: 100%;
+    height: 30vh;
+    transition: 0.5s;
+}
+
+.quality:hover {
+    background-color: #9b4884;
+}
+
+
+
+
+
+
+
+/* contact page */
+#contact {
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(#663057, #1F2558);
+    padding-bottom: 5%;
+}
+
+.contact-height {
+    height: auto;
+    padding-top: 5%;
+}
+
+
+input, select, textarea{
+    color: #B3BAC2;
+}
+
+.input-col {
+    color: #B3BAC2;
+}
+
+.input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #B3BAC2;
+    height: 8vh;
+    width: 50vw;
+    transition: 0.5s;
+}
+
+.input:focus {
+    border: 1px solid #ffffff;
+}
+
+#msg {
+    height: 30vh;
+}
+
+#send {
+    color: #B3BAC2;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ffffff;
+    transition: 1s;
+}
+
+#send:hover {
+    color: white;
+    border-color: white;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    height: 8vh;
+    background-color: black;
+    font-size: 140%;
+}
+
+#copyright {
+    color: #777777;
+    font-size: 50%;
+}
+
+.link {
+    color: #777777;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #b1b1b1;
+}
+
