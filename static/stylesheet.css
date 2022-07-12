@@ -59,7 +59,7 @@
 /* HOME page */
 #home {
     height: 100vh;
-    background-image: url('/imgs/retro-pink.jpg');
+    background-image: url('/imgs/pacman.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -75,14 +75,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background:rgba(41, 0, 38, 0.768);
+    background:#00000070;
 }
 
 
 .info {
-    background-color: #0D1117;
+    background-color: #000000;
     color: #B3BAC2;
 }
 
@@ -106,7 +106,7 @@
 #other {
     position: relative;
     height: auto;
-    background-image: linear-gradient(#663057, #1F2558);
+    background-image: linear-gradient(#6D0024, #040814);
 }
 
 
@@ -146,7 +146,7 @@ a {
 #about {
     position: relative;
     height: auto;
-    background-image: linear-gradient(#663057, #1F2558);
+    background-image: linear-gradient(#6D0024, #040814);
     color: #B3BAC2;
 }
 
@@ -160,14 +160,14 @@ a {
 }
 
 .quality {
-    background-color: #663057;
+    background-color: #040814;
     width: 100%;
     height: 30vh;
     transition: 0.5s;
 }
 
 .quality:hover {
-    background-color: #9b4884;
+    background-color: #09122d;
 }
 
 
@@ -180,7 +180,7 @@ a {
 #contact {
     position: relative;
     height: auto;
-    background-image: linear-gradient(#663057, #1F2558);
+    background-image: linear-gradient(#6D0024, #040814);
     padding-bottom: 5%;
 }
 
@@ -236,7 +236,7 @@ input, select, textarea{
 
 /* footer */
 .footer {
-    height: 8vh;
+    height: 9vh;
     background-color: black;
     font-size: 140%;
 }
