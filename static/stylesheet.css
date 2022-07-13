@@ -58,6 +58,8 @@
 
 /* HOME page */
 #home {
+    top: 0;
+    left: 0;
     height: 100vh;
     background-image: url('/imgs/pacman.jpg');
     background-repeat: no-repeat;
@@ -94,14 +96,27 @@
 
 .row {
     text-align: center;
+    padding-top: 25%;
 }
 
 .icons {
     color: #B3BAC2;
     font-size: 350%;
-    margin-top: 25%;
 }
 
+.keyword {
+    font-size: medium;
+}
+
+#left-text {
+    font-size: 250%;
+    min-width: 35vw;
+    line-height: 100%;
+}
+
+#right-text {
+    min-width: 40vw;
+}
 
 #other {
     position: relative;
@@ -151,8 +166,8 @@ a {
 }
 
 #about-content {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .me-about {
@@ -162,12 +177,18 @@ a {
 .quality {
     background-color: #040814;
     width: 100%;
-    height: 30vh;
+    min-height: 60vh;
     transition: 0.5s;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .quality:hover {
     background-color: #09122d;
+}
+
+.threeP {
+    display: block;
 }
 
 
