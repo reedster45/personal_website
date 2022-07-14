@@ -73,6 +73,23 @@
     font-weight: bold;
 }
 
+#scroll-down {
+    z-index: 100;
+    transform: scale(2);
+    position: absolute;
+    transition: 0.5s;
+}
+
+#scroll-style {
+    border: none;
+    background: none;
+    color: #B3BAC2;
+}
+
+#scroll-style:hover {
+    color: #ffffff;
+}
+
 .overlay {
     position: absolute;
     top: 0;
