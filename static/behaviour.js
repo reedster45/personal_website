@@ -1,18 +1,20 @@
-console.log('tsting');
+const menu = $('#menu');
+const cancel = $('#cancel');
+const toggler = $('#btn');
+const hide = $('#hide');
 
-const menu = document.getElementById('menu');
-const cancel = document.getElementById('cancel');
-const toggler = document.getElementById('btn');
-const hide = document.getElementById('hide');
+toggler.click(toggleMenu) 
 
-toggler.addEventListener('click', () => {
-    if (menu.style.display == 'none') {
-        hide.style.display = 'none';
-        menu.style.display = 'initial';
-        cancel.style.display = 'none';
+
+
+function toggleMenu() {
+    if (menu.css('display') == 'none') {
+        hide.css('display', 'none');
+        menu.css('display', 'initial');
+        cancel.css('display', 'none');
     } else {
-        hide.style.display = 'initial';
-        menu.style.display = 'none';
-        cancel.style.display = 'initial';
+        hide.css('display', 'initial');
+        menu.css('display', 'none');
+        cancel.css('display', 'initial');
     }
-});
+};
