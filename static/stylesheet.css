@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', serif;
+}
+
 
 /* header */
 .toggler {
@@ -67,10 +71,14 @@
     background-size: cover;
 }
 
-.me {
+.mediv {
+    position: absolute;
     z-index: 100;
+}
+
+.me {
     color: #B3BAC2;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #scroll-down {
@@ -78,16 +86,21 @@
     transform: scale(2);
     position: absolute;
     transition: 0.5s;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#scroll-down:hover {
+    transform: translate(0, 15px) scale(1.5);
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #scroll-style {
     border: none;
     background: none;
     color: #B3BAC2;
-}
-
-#scroll-style:hover {
-    color: #ffffff;
 }
 
 .overlay {
@@ -153,6 +166,7 @@
 .bord {
     color: #B3BAC2;
     border: 5px solid #B3BAC2;
+    border-radius: 10%;
     transition: 0.5s;
     font-weight: bold;
 }
@@ -164,7 +178,7 @@ a {
 .bord:hover {
     color: white;
     border-color: white;
-    border-radius: 100%;
+    transform: scale(1.3);
 }
 
 
