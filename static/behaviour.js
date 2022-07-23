@@ -18,10 +18,25 @@ function toggleMenu() {
 };
 
 
-// fade in stuff
-$(document).ready(function () {
-    $('.fade-1').hide().fadeIn(2000);
+// fade in stuff on page load
+$(document).ready(function() {
+    // nav bar
+    $('.nav-name').hide().slideDown(1000);
+    $('.toggler').hide().delay(500).slideDown(1000);
+
+    // home
+    $('.slide-1').hide().delay(1000).fadeIn(1000);
+    $('.slide-2').hide().delay(1500).fadeIn(1000);
+    $('.fade-1').hide().delay(2000).fadeIn(1000);
+
+    // about
+    $('.about-fade').hide().delay(1000).fadeIn(1000)
+
+    // contact
+    $('.contact').hide().delay(1000).fadeIn(1000)
 });
+
+
 
 // scroll down button
 $("#scroll-down").click(function() {
