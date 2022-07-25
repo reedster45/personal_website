@@ -4,10 +4,6 @@ body {
 
 
 /* header */
-.navbar {
-    min-height: 15vh;
-}
-
 .nav-name {
     display: none;
 }
@@ -28,11 +24,6 @@ body {
     z-index: 100;
     color: #B3BAC2;
     font-weight: bold;
-}
-
-
-#menu {
-    display: block;
 }
 
 #cancel {
@@ -84,7 +75,7 @@ body {
 
 .mediv {
     position: absolute;
-    min-height: 15%;
+    min-height: 20%;
     z-index: 100;
 }
 
