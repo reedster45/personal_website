@@ -201,13 +201,13 @@ a {
 }
 
 #about-content {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .me-about {
     width: 50%;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .quality {
