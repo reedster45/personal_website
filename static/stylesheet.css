@@ -16,6 +16,7 @@ body {
     font-size: 220%;
     background: none;
     border: none;
+    transition: 0.5s;
 }
 
 
@@ -48,6 +49,12 @@ body {
 .page {
     color: #B3BAC2;
     font-weight: bold;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.active {
+    color: #ffffff;
 }
 
 
@@ -338,8 +345,9 @@ input, select, textarea{
     }
 
     #scroll-down:hover {
-        transform: translate(0, 15px) scale(1.5);
+        transform: scale(1.5);
         color: #ffffff;
+        padding-top: 4%;
         padding-left: 10%;
         padding-right: 10%;
     }

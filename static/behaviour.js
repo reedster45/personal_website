@@ -1,18 +1,23 @@
 
 
 // menu popup
-const menu = $('#menu');
-const cancel = $('#cancel');
-const toggler = $('#btn');
-const hide = $('#hide');
+$(document).ready(function() {
+    $('.toggler').click(function() {
+        $('#menu').toggle(1000);
+        $('#cancel').toggle(1000);
+        $('#hide').toggle();
+    });
+});
 
-toggler.click(toggleMenu) 
 
-function toggleMenu() {
-    menu.toggle(1000);
-    cancel.toggle(1000);
-    hide.toggle();
-};
+// set active page on nav (not working!!!)
+$(document).ready(function() {
+    $('.page').click(function() {
+        console.log("header clicked");
+        $('.page').removeClass('active');
+        $(this).addClass('active');
+    });
+});
 
 
 // fade in stuff on page load
@@ -36,9 +41,12 @@ $(document).ready(function() {
 
 
 // scroll down button
-$("#scroll-down").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".info").offset().top + 90
-    }, 1000);
+$(document).ready(function() {
+    $('#scroll-down').click(function() {
+        $('html, body').animate({
+            scrollTop: $('.info').offset().top + 90
+        }, 1000);
+    });
 });
+
 
